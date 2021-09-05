@@ -1,8 +1,11 @@
+import React from 'react';
+import Home from './components/Home/Home';
+
 function App() {
   return (
-    <>
-      <h1 className="container">Coming Soon</h1>
-    </>
+    <div>
+      <Home />
+    </div>
   );
 }
 
