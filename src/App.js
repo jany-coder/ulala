@@ -1,11 +1,11 @@
 import React from 'react';
-import Home from './components/Home/Home';
-
+import Nav from './components/Shared/Nav/Nav';
+import AppRouter from './Routes/AppRouter';
 function App() {
   return (
-    <div>
-      <Home />
-    </div>
+    <AppRouter>
+      <Nav />
+    </AppRouter>
   );
 }
 
