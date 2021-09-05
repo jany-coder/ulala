@@ -1,10 +1,10 @@
 import Nav from './components/shared/nav/Nav';
+import AppRouter from './Routes/AppRouter';
 function App() {
   return (
-    <>
-      <Nav></Nav>
-      <h1 className="container">Coming Soon</h1>
-    </>
+    <AppRouter>
+      <Nav />
+    </AppRouter>
   );
 }
 
