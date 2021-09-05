@@ -16,16 +16,16 @@ const nav = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Home</a>
+                                <Link to="/" className="nav-link active" aria-current="page">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Live TV</a>
+                                <Link to="/live-tv" className="nav-link active" aria-current="page">Live TV</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Movies</a>
+                                <Link to="/movies" className="nav-link active" aria-current="page">Movies</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Drama</a>
+                                <Link to="/drama" className="nav-link active" aria-current="page">Drama</Link>
                             </li>
                         </ul>
                         <form className="d-flex">
