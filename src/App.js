@@ -1,6 +1,8 @@
 import React from 'react';
-import Nav from './components/Shared/Nav/Nav';
+
+
 import AppRouter from './Routes/AppRouter';
+import Nav from './components/shared/nav/Nav';
 function App() {
   return (
     <AppRouter>
