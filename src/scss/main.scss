@@ -1,4 +1,6 @@
-@import "./overrides/bootstrap";
 @import "./global/global";
+@import "./overrides/bootstrap";
+@import "./overrides/reset";
 
 // Connect components scss files
+@import "../components/shared/nav/nav";

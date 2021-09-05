@@ -1,0 +1,9 @@
+.form-control:focus,
+.btn:focus,
+.btn:active:focus {
+  box-shadow: none;
+}
+
+.form-control:focus {
+  border-color: $primary;
+}
