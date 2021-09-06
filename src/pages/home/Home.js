@@ -1,10 +1,11 @@
 import React from 'react';
+import Footer from '../../components/shared/footer/Footer';
 
 const Home = () => {
     return (
-        <div>
-
-        </div>
+        <main>
+            <Footer />
+        </main>
     );
 };
 
