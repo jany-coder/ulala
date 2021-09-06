@@ -1,11 +1,13 @@
 import React from 'react';
+import LiveTv from '../../components/liveTv/LiveTv';
 import Footer from '../../components/shared/footer/Footer';
 
 const Home = () => {
     return (
-        <main>
+        <div className="div">
+            <LiveTv />
             <Footer />
-        </main>
+        </div>
     );
 };
 
