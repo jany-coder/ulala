@@ -21,9 +21,9 @@ const Footer = () => {
                             <Link to="/" className="p-3 text-muted">About Ads</Link>|
                             <Link to="/" className="p-3 text-muted">Privacy Policy</Link>
                         </div>
-                        <small className="text-muted text-center d-block">&copy; {new Date().getFullYear()} Ulala LLC</small>
+                        <small className="text-muted text-center d-block mt-3">&copy; {new Date().getFullYear()} Ulala LLC</small>
                     </Col>
-                    <Col lg={2}>
+                    <Col lg={2} className="d-none d-lg-block">
                         <div className="social-nav text-center">
                             <p className="text-muted mb-0">Connect with us</p>
                             <Link to="" className="p-2"><FaFacebook /></Link>
