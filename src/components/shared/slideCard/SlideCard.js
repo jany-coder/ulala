@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SlideCard = ({ name, img }) => {
+const SlideCard = ({ item: { name, img } }) => {
     return (
         <div className="slideCard__component m-2 shadow">
             <img className="img-fluid rounded" src={img} alt="" />
