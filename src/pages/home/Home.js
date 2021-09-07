@@ -1,14 +1,19 @@
 import React from 'react';
+import BannerCarousel from '../../components/home/bannerCarousel/BannerCarousel';
+import Popular from '../../components/home/popular/Popular';
+import LiveTv from '../../components/liveTv/LiveTv';
 import Footer from '../../components/shared/footer/Footer';
-import LiveTv from './../../components/liveTv/LiveTv';
+
 
 
 const Home = () => {
     return (
-        <main>
-            <LiveTv></LiveTv>
+        <div className="div">
+            <BannerCarousel />
+            <LiveTv />
+            <Popular />
             <Footer />
-        </main>
+        </div>
     );
 };
 

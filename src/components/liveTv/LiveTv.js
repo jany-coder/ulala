@@ -5,6 +5,7 @@ import Slider from "react-slick";
 import './_liveTv.scss';
 import liveTvData from '../../data/liveTvData';
 import LiveTvCard from '../liveTvCard/LiveTvCard';
+import { Link } from 'react-router-dom';
 
 const LiveTv = () => {
 
@@ -18,7 +19,7 @@ const LiveTv = () => {
         variableWidth: true,
         adaptiveHeight: true,
         arrows: true,
-        dots: true,
+        dots: false,
         infinite: false,
         speed: 500,
         slidesToShow: 4,
@@ -53,10 +54,9 @@ const LiveTv = () => {
       };
     return (
         <>
-            <div  className="container-fluid mt-4">
-                <div className="container mb-2">
-                    <h4>TV CHANNELS</h4>
-                </div>
+            <div  className="container-fluid my-3">
+            <h5 className="d-inline mx-3">Tv Channels</h5>
+            <Link to="" className="d-inline">See More</Link>
                 <Slider {...settings}>
                     {
                         tvChannels.map(tv => 

@@ -7,7 +7,7 @@ import logo from '../../../assets/ulala.png'
 
 const Footer = () => {
     return (
-        <footer className="footer__component">
+        <footer className="footer__component my-5">
             <Container>
                 <Row className="align-items-center flex-column flex-lg-row justify-content-center gap-3">
                     <Col lg={2} className="d-none d-lg-block">
