@@ -63,7 +63,7 @@ const liveTvData = [
         id: 11,
         name: "Bongo Movies",
         img: "https://i.ibb.co/7g7j38v/bongo.png",
-        type: "movie"
+        type: "movies"
     },
     { 
         id: 12,
