@@ -6,7 +6,7 @@ import './_nav.scss';
 const nav = () => {
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container-fluid">
                     <Link to="/" className="navbar-brand">
                         <img src={logo} alt="" height="40" className="d-inline-block align-text-top" />
@@ -17,21 +17,21 @@ const nav = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <Link to="/" className="nav-link active" aria-current="page">Home</Link>
+                                <Link to="/" className="nav-link active" aria-current="page"><span>HOME</span></Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/live-tv" className="nav-link active" aria-current="page">Live TV</Link>
+                                <Link to="/live-tv" className="nav-link active" aria-current="page"><span>LIVE TV</span></Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/movies" className="nav-link active" aria-current="page">Movies</Link>
+                                <Link to="/movies" className="nav-link active" aria-current="page"><span>MOVIES</span></Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/drama" className="nav-link active" aria-current="page">Drama</Link>
+                                <Link to="/drama" className="nav-link active" aria-current="page"><span>DRAMA</span></Link>
                             </li>
                         </ul>
                         <form className="d-flex">
                             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                            <button className="btn btn-outline-success" type="submit">Search</button>
+                            <button className="btn btn-outline-light" type="submit">Search</button>
                         </form>
                         <ul className="navbar-nav ms-2">
                             <li className="nav-item">
