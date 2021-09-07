@@ -1,4 +1,5 @@
 @import "./global/global";
+@import "./global/globalTailwind";
 @import "./overrides/bootstrap";
 @import "./overrides/reset";
 
@@ -7,4 +8,4 @@
 @import "../components/shared/footer/footer";
 @import "../components/liveTv/liveTv";
 @import "../components/shared/customSlick/customSlick";
-@import "../components/home/popularCard/popularCard";
+@import "../components/shared/slideCard/slideCard";
