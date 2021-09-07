@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import LiveTvAll from '../components/liveTvAll/LiveTvAll';
 import Home from '../pages/home/Home';
 
 const AppRouter = ({ children }) => {
@@ -9,6 +10,9 @@ const AppRouter = ({ children }) => {
             <Switch>
                 <Route exact path='/'>
                     <Home />
+                </Route>
+                <Route exact path='/channel/all'>
+                   <LiveTvAll />
                 </Route>
             </Switch>
         </Router>

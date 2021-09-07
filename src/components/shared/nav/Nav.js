@@ -19,7 +19,7 @@ const nav = () => {
                                 <Link to="/" className="nav-link active" aria-current="page">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/live-tv" className="nav-link active" aria-current="page">Live TV</Link>
+                                <Link to="channel/all" className="nav-link active" aria-current="page">Live TV</Link>
                             </li>
                             <li className="nav-item">
                                 <Link to="/movies" className="nav-link active" aria-current="page">Movies</Link>
@@ -40,7 +40,6 @@ const nav = () => {
                     </div>
                 </div>
             </nav>
-
         </>
     );
 };
