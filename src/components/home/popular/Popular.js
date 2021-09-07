@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { popularData } from '../../../data/popularData';
 import CustomSlick from '../../shared/customSlick/CustomSlick';
+import SlideCard from '../../shared/slideCard/SlideCard';
 import SlideSection from '../../shared/slideSection/SlideSection';
-import PopularCard from '../popularCard/PopularCard';
 
 const Popular = () => {
     const [popular, setPopular] = useState([])
@@ -17,7 +17,7 @@ const Popular = () => {
         <SlideSection title="Most Popular" Link="/popular">
             <CustomSlick>
                 {
-                    popular.map(item => <PopularCard item={item} />)
+                    popular.map(item => <SlideCard item={item} />)
                 }
             </CustomSlick>
         </SlideSection>
