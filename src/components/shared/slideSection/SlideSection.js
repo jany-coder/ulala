@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const SlideSection = ({ title, link, children }) => {
     return (
-        <section container-fluid my-3>
+        <section className="container-fluid my-3">
             <div>
                 <h5 className="d-inline mx-3">{title}</h5>
                 <Link to={link}>See More</Link>
