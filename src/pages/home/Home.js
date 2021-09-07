@@ -4,6 +4,8 @@ import Popular from '../../components/home/popular/Popular';
 import LiveTv from '../../components/liveTv/LiveTv';
 import Footer from '../../components/shared/footer/Footer';
 
+
+
 const Home = () => {
     return (
         <div className="div">
