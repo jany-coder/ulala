@@ -1,12 +1,12 @@
 import React from 'react';
 
-const PopularCard = ({ item: { name, img } }) => {
+const SlideCard = ({ item: { name, img } }) => {
     return (
-        <div className="popularCard__component m-2 shadow">
+        <div className="slideCard__component m-2 shadow">
             <img className="img-fluid rounded" src={img} alt="" />
             <p className="title text-light">{name}</p>
         </div>
     );
 };
 
-export default PopularCard;
+export default SlideCard;
