@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 import { popularData } from '../../../data/popularData';
 import CustomSlick from '../../shared/customSlick/CustomSlick';
+import SlideSection from '../../shared/slideSection/SlideSection';
 import PopularCard from '../popularCard/PopularCard';
 
 const Popular = () => {
@@ -14,15 +14,13 @@ const Popular = () => {
     console.log(popular);
 
     return (
-        <div className="container-fluid my-3">
-            <h5 className="d-inline mx-3">Most Popular</h5>
-            <Link to="" className="d-inline">See More</Link>
+        <SlideSection title="Most Popular" Link="/popular">
             <CustomSlick>
                 {
                     popular.map(item => <PopularCard item={item} />)
                 }
             </CustomSlick>
-        </div>
+        </SlideSection>
     );
 };
 
