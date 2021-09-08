@@ -1,4 +1,5 @@
 import React from 'react';
+import './_nav.scss';
 import { Link } from 'react-router-dom';
 import logo from '../../../assets/ulala.png';
 import './_nav.scss';
@@ -9,7 +10,8 @@ const nav = () => {
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container-fluid">
                     <Link to="/" className="navbar-brand">
-                        <img src={logo} alt="" height="40" className="d-inline-block align-text-top" />
+                        {/* logo size problem when applying Tailwind in main.scss. So, moved the logo height property in _nav.scss */}
+                        <img src={logo} alt="" className="brandLogo d-inline-block align-text-top" />
                     </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -35,13 +37,12 @@ const nav = () => {
                         </form>
                         <ul className="navbar-nav ms-2">
                             <li className="nav-item">
-                                <button type="button" className="btn btn-success">Login</button>
+                               <Link to="/user_dashboard"><button type="button" className="btn btn-success">Login</button></Link>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
-
         </>
     );
 };

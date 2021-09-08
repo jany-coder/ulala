@@ -1,0 +1,14 @@
+.footer__component {
+  .footer-nav {
+    a {
+      font-weight: bold;
+      &:hover {
+        color: $primary !important;
+      }
+    }
+  }
+  svg {
+    font-size: 1.3rem;
+    display: inline-block;
+  }
+}
