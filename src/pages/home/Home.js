@@ -1,6 +1,6 @@
 import React from 'react';
-import BannerCarousel from '../../components/Home/bannerCarousel/BannerCarousel';
-import Popular from '../../components/Home/popular/Popular';
+import BannerCarousel from '../../components/home/bannerCarousel/BannerCarousel';
+import Popular from '../../components/home/popular/Popular';
 import LiveTv from '../../components/liveTv/LiveTv';
 import Footer from '../../components/shared/footer/Footer';
 
