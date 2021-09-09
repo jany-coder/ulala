@@ -51,17 +51,5 @@
     "autoprefixer": "^10.3.4",
     "postcss": "^8.3.6",
     "tailwindcss": "^2.2.10"
-  },
-  "description": "Hello",
-  "main": "postcss.config.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/FIMehedi/ulala.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/FIMehedi/ulala/issues"
-  },
-  "homepage": "https://github.com/FIMehedi/ulala#readme"
+  }
 }
