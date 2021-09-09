@@ -1,12 +1,10 @@
 import React from 'react';
 import { FaUserCircle } from "react-icons/fa";
 import { FaCamera } from "react-icons/fa";
-import { Link } from 'react-router-dom';
 
 export default function UserDashboard() {
     return (
         <div className=" md:w-8/12 mx-auto pt-4 px-3">
-            <p className="text-red-500">Under construction by Mithu</p>
 
             <div className="flex flex-col md:flex-row md:justify-between md:space-x-6">
 
