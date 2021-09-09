@@ -10,7 +10,6 @@ const nav = () => {
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container-fluid">
                     <Link to="/" className="navbar-brand">
-                        {/* logo size problem when applying Tailwind in main.scss. So, moved the logo height property in _nav.scss */}
                         <img src={logo} alt="" className="brandLogo d-inline-block align-text-top" />
                     </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
