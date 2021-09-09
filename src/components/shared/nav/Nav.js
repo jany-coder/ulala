@@ -21,7 +21,7 @@ const nav = () => {
                                 <Link to="/" className="nav-link active" aria-current="page"><span>HOME</span></Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/live-tv" className="nav-link active" aria-current="page"><span>LIVE TV</span></Link>
+                                <Link to="/channel/all" className="nav-link active" aria-current="page"><span>LIVE TV</span></Link>
                             </li>
                             <li className="nav-item">
                                 <Link to="/movies" className="nav-link active" aria-current="page"><span>MOVIES</span></Link>
