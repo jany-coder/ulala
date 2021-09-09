@@ -1,9 +1,7 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
-  purge: [
-    './src/components/shared/nav/Nav.js',
-  ],
+  purge: [],
   presets: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
