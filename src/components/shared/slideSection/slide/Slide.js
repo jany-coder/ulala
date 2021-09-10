@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const SlideSection = ({ title, link, children }) => {
+export default function Slide({ title, link, children }) {
     return (
         <section className="container-fluid my-3">
             <div>
@@ -12,5 +12,3 @@ const SlideSection = ({ title, link, children }) => {
         </section >
     );
 };
-
-export default SlideSection;

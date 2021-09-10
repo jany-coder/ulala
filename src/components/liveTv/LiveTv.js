@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './_liveTv.scss';
 import liveTvData from '../../data/liveTvData';
 import LiveTvCard from '../liveTvCard/LiveTvCard';
-import SlideSection from '../shared/slideSection/SlideSection';
+import SlideSection from '../shared/slideSection/slide/Slide';
 import CustomSlick from '../shared/customSlick/CustomSlick';
 
 const LiveTv = () => {

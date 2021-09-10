@@ -32,3 +32,29 @@ $light: $gray-100;
 $dark: $gray-900;
 
 // common styles
+  
+  body {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  };
+  
+  body::-webkit-scrollbar {
+    width: .5rem;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #37ffab;
+    border-radius: 20px;
+  }
+  
+  ::-moz-selection {
+    background: #b9b9b9;
+  }
+  
+  ::selection {
+    background: #b9b9b9;
+  }
+  
