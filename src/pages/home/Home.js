@@ -3,6 +3,7 @@ import BannerCarousel from '../../components/mainPage/bannerCarousel/BannerCarou
 import Popular from '../../components/mainPage/popular/Popular';
 import LiveTv from '../../components/liveTv/LiveTv';
 import Footer from '../../components/shared/footer/Footer';
+import Faq from '../../components/mainPage/faq/Faq';
 
 
 
@@ -12,6 +13,7 @@ const Home = () => {
             <BannerCarousel />
             <LiveTv />
             <Popular />
+            <Faq />
             <Footer />
         </div>
     );
