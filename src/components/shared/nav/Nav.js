@@ -53,6 +53,12 @@ const nav = () => {
                                     <li><Link to="/" class="dropdown-item">Drama 4</Link></li>
                                 </ul>
                             </li>
+                            <li className="nav-item dropdown">
+                                <Link to="/drama" class="nav-link dropdown-toggle"  id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span>POPULAR</span></Link>
+                                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarScrollingDropdown">
+                                    <li><Link to="/popular" class="dropdown-item">Popular</Link></li>
+                                </ul>
+                            </li>
                            
                         </ul>
                         <form className="d-flex">
