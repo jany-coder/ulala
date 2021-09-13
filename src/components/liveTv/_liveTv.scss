@@ -1,0 +1,13 @@
+.slick-prev {
+    left: 2% !important;
+    z-index: 1;
+  }
+  .slick-next {
+    right: 2% !important;
+    z-index: 1;
+  }
+
+.slick-prev:before,
+.slick-next:before {
+  color: rgb(0, 173, 72)!important;
+}
