@@ -61,7 +61,7 @@ const nav = () => {
                         </form>
                         <ul className="navbar-nav ms-2">
                             <li className="nav-item">
-                                <Link to="/user_dashboard"><button type="button" className="btn btn-success">Login</button></Link>
+                                <Link to="/user_dashboard"><button type="button" className="btn btn-primary">Login</button></Link>
                             </li>
                         </ul>
                     </div>
