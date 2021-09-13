@@ -2,12 +2,11 @@ import React, { useEffect, useState } from 'react';
 import NatokData from './NatokData';
 import Slider from "react-slick";
 import ShowNatok from './ShowNatok';
+import { Link } from 'react-router-dom';
 const Natok = () => {
     const [loaddata, setdata] = useState()
     useEffect(() => {
-        console.log(NatokData)
         setdata(NatokData)
-        console.log(loaddata)
     },[])
     const settings = {
         dots: true,
@@ -44,8 +43,11 @@ const Natok = () => {
         ]
     };
     return (
-        <div>
-            <h1>Bangla Tv Drama</h1>
+        <div class="container-fluid">
+            <div>
+                <h5 className="d-inline mx-3">Bangla TV Drama</h5>
+                <Link to="/">See More</Link>
+            </div>
             <Slider {...settings}>
                 {
                    loaddata?.map(data=>    <div className="d-flex justify-content-center" style={{width: '150px'}}>
