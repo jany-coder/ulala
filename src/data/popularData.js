@@ -1,4 +1,4 @@
-export const popularData = [
+const popularData = [
     {
         name: 'Popular 1',
         img: 'https://cdn.bioscopelive.com/upload/content/tivoPortrait/hd/tB6Yzc5xIgM.jpg'
@@ -64,3 +64,5 @@ export const popularData = [
         img: 'https://cdn.bioscopelive.com/upload/content/tivoPortrait/hd/tB6Yzc5xIgM.jpg'
     }
 ]
+
+export default popularData;
