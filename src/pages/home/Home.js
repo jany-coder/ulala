@@ -3,8 +3,9 @@ import BannerCarousel from '../../components/mainPage/bannerCarousel/BannerCarou
 import Popular from '../../components/mainPage/popular/Popular';
 import LiveTv from '../../components/liveTv/LiveTv';
 import Faq from '../../components/mainPage/faq/Faq';
-import Footer from './../../components/shared/Footer/Footer';
+import Footer from './../../components/shared/footer/Footer';
 import Natok from './../../components/NatokData/Natok';
+import Subscription from '../../components/mainPage/Subscription';
 
 
 
@@ -16,6 +17,7 @@ const Home = () => {
             <Natok/>
             <Popular />
             <Faq />
+            <Subscription/>
             <Footer />
         </div>
     );
