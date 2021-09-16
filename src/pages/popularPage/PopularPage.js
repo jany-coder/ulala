@@ -14,6 +14,9 @@ const PopularPage = () => {
     return (
         <div class=" container-fluid">
             <div class="row my-4">
+                <div class=" text-center mb-3" >
+                    <h4 class="d-inline p-2 rounded" style={{border: "1px solid green"}}><strong>ULALA MOST POPULAR</strong></h4>
+                </div>
                 {
                     popular.map(pop =>
 
