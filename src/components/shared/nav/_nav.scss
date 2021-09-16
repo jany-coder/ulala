@@ -24,6 +24,15 @@
   }
 
 .nav-item span {
+  line-height: 18px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; // remove the gap so it doesn't close
+}
+
+.nav-item span {
   position: relative;
   display: inline-block;
   font-size: 1rem;
