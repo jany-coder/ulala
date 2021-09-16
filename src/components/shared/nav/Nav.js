@@ -7,7 +7,7 @@ import './_nav.scss';
 const nav = () => {
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav className="navbar navbar-expand-lg navbarBg fixed">
                 <div className="container-fluid">
                     <Link to="/" className="navbar-brand">
                         <img src={logo} alt="" className="brandLogo d-inline-block align-text-top" />
