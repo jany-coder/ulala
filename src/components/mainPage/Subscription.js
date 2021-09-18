@@ -34,16 +34,14 @@ const Subscription = () => {
                             <Card.Body className="text-center pricing-card-head">
                                 <Card.Title>{plan.name}</Card.Title>
                                    <Card.Subtitle>
-                                    <p className="text-success">Get First Weak Free, Then </p>
+                                    <p>Get First Weak Free, Then </p>
                                      <h1 className="font-weight-normal mb-4"> ${plan.price}</h1>
                                    </Card.Subtitle>
-                                <Card.Text className="text-primary">
-                                   
+                                <Card.Text>
                                    Some quick example text to build on the card title and make up the bulk of
                                     the card's content.
-                                
                                 </Card.Text>
-                                <Button className="btn btn-outline-primary btn-block " variant="primary">SELECT</Button>
+                                <Button className="btn btn-outline-primary btn-block hover:text-gray-50 " variant="primary">SELECT</Button>
                             </Card.Body>
                         </Card>
                       </div>
