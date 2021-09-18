@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaUserCircle } from "react-icons/fa";
 import { FaCamera } from "react-icons/fa";
-import Subscription from './Subscription';
+
 
 export default function UserDashboard() {
     return (
@@ -79,8 +79,6 @@ export default function UserDashboard() {
                         </form>
                     </div>
                 </div>
-                {/*Subscription */}
-                <Subscription />
             </div >
 
         </div>
