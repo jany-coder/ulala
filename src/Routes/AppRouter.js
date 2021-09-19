@@ -6,6 +6,7 @@ import Home from '../pages/home/Home';
 import PopularPage from '../pages/popularPage/PopularPage';
 import Login from '../components/login/Login';
 import PrivateRoute from '../components/PrivateRoute/PrivateRoute';
+import AdminDashboard from '../components/Dashboards/adminDashboard/AdminDashboard';
 
 export const UserContext = createContext();
 
@@ -23,6 +24,8 @@ const AppRouter = ({ children }) => {
                 <Route exact path='/popular'> <PopularPage /> </Route>
 
                 <PrivateRoute exact path='/user_dashboard'><UserDashboard /></PrivateRoute>
+
+                <Route exact path='/admin_dashboard'><AdminDashboard /></Route>
 
                 <Route path="/login">
                     <Login></Login>

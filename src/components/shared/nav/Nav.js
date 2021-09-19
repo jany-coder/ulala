@@ -12,7 +12,9 @@ const nav = () => {
                     <Link to="/" className="navbar-brand">
                         <img src={logo} alt="" className="brandLogo d-inline-block align-text-top" />
                     </Link>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                     aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -68,6 +70,7 @@ const nav = () => {
                         <ul className="navbar-nav ms-2">
                             <li className="nav-item">
                                 <Link to="/user_dashboard"><button type="button" className="btn btn-primary">Login</button></Link>
+                                <Link to="/admin_dashboard"><button type="button" className="btn btn-primary">Admin</button></Link>
                             </li>
                         </ul>
                     </div>
