@@ -5,7 +5,8 @@ import Faq from '../../components/mainPage/faq/Faq';
 import Footer from './../../components/shared/Footer/Footer';
 import Natok from './../../components/NatokData/Natok';
 import Subscription from '../../components/mainPage/Subscription';
-import LiveTV from '../../components/liveTV/liveTV/LiveTV';
+import LiveTV from '../../components/liveTV/liveTV/LiveTv';
+
 
 
 

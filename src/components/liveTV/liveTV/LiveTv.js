@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './_liveTV.scss';
+import './_liveTv.scss';
 import LiveTvCard from '../liveTvCard/LiveTvCard';
 import SlideSection from '../../shared/slideSection/slide/Slide';
 import liveTvData from '../../../data/liveTvData';
