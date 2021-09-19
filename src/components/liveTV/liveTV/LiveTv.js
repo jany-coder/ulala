@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import './_liveTv.scss';
-import liveTvData from '../../data/liveTvData';
+import './_liveTV.scss';
 import LiveTvCard from '../liveTvCard/LiveTvCard';
-import SlideSection from '../shared/slideSection/slide/Slide';
-import CustomSlick from '../shared/customSlick/CustomSlick';
+import SlideSection from '../../shared/slideSection/slide/Slide';
+import liveTvData from './../../../data/liveTvData';
+import CustomSlick from './../../shared/customSlick/CustomSlick';
 
-const LiveTv = () => {
+const LiveTV = () => {
 
   const [tvChannels, setTvChannels] = useState([]);
 
@@ -47,4 +47,4 @@ const LiveTv = () => {
   );
 };
 
-export default LiveTv;
+export default LiveTV;

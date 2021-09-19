@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import liveTvData from '../../data/liveTvData';
 import LiveTvCard from '../liveTvCard/LiveTvCard';
+import liveTvData from './../../../data/liveTvData';
 
 const LiveTvAll = () => {
 

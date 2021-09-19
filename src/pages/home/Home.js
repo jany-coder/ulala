@@ -1,11 +1,12 @@
 import React from 'react';
 import BannerCarousel from '../../components/mainPage/bannerCarousel/BannerCarousel';
 import Popular from '../../components/mainPage/popular/Popular';
-import LiveTv from '../../components/liveTV/LiveTv';
 import Faq from '../../components/mainPage/faq/Faq';
-import Footer from './../../components/shared/footer/Footer';
+import Footer from './../../components/shared/Footer/Footer';
 import Natok from './../../components/NatokData/Natok';
 import Subscription from '../../components/mainPage/Subscription';
+import LiveTV from '../../components/liveTV/liveTV/LiveTV';
+
 
 
 
@@ -13,7 +14,7 @@ const Home = () => {
     return (
         <div className="div">
             <BannerCarousel />
-            <LiveTv />
+            <LiveTV />
             <Natok/>
             <Popular />
             <Faq />
