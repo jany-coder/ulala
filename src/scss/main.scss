@@ -4,8 +4,9 @@
 @import "./overrides/reset";
 
 // Connect components scss files
-@import "../components/shared/nav/nav";
+// @import "../components/shared/nav/nav";
 @import "../components/shared/footer/footer";
 @import "../components/liveTV/liveTV/LiveTV";
 @import "../components/shared/customSlick/customSlick";
 @import "../components/shared/slideSection/slideCard/SlideCard";
+@import "../components/shared/nav/Nav";

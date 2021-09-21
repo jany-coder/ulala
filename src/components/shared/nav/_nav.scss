@@ -49,3 +49,14 @@
   }
 }
 
+.commonBtn{
+  margin: 10px;
+  padding: 5px 10px;
+  border-radius: 20px 0px;
+  background-color: #06f591;
+  color: white;
+}
+.commonBtn:hover {
+  border-radius: 0px 20px ;
+  color: rgb(204, 202, 202);
+}
