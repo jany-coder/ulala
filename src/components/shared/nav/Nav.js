@@ -7,7 +7,7 @@ import './_nav.scss';
 const nav = () => {
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav className="navbar navbar-expand-lg navbarBg fixed">
                 <div className="container-fluid">
                     <Link to="/" className="navbar-brand">
                         <img src={logo} alt="" className="brandLogo d-inline-block align-text-top" />
@@ -49,7 +49,7 @@ const nav = () => {
                             <li className="nav-item dropdown">
                                 <Link to="/drama" class="nav-link dropdown-toggle"  id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span>DRAMA</span></Link>
                                 <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarScrollingDropdown">
-                                    <li><Link to="/" class="dropdown-item">All Drama</Link></li>
+                                    <li><Link to="/drama/all" class="dropdown-item">Drama All</Link></li>
                                     <li><Link to="/" class="dropdown-item">Drama 2</Link></li>
                                     <li><Link to="/" class="dropdown-item">Drama 3</Link></li>
                                     <li><Link to="/" class="dropdown-item">Drama 4</Link></li>

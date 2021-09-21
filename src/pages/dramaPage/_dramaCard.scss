@@ -1,0 +1,12 @@
+
+.dramaCard__component {
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+  
+    .title {
+      transform: translateY(-1.875rem);
+      padding-left: 0.625rem;
+      padding: 5px;
+    }
+  }
