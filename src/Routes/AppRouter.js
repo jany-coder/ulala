@@ -1,12 +1,14 @@
 import React, { createContext, useState } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import LiveTvAll from '../components/liveTvAll/LiveTvAll';
+import LiveTvAll from '../components/liveTV/liveTvAll/LiveTvAll';
 import UserDashboard from '../components/Dashboards/userDashboard/UserDashboard';
 import Home from '../pages/home/Home';
 import PopularPage from '../pages/popularPage/PopularPage';
 import Login from '../components/login/Login';
 import PrivateRoute from '../components/PrivateRoute/PrivateRoute';
 import AdminDashboard from '../components/Dashboards/adminDashboard/AdminDashboard';
+import DramaPage from './../pages/dramaPage/DramaPage';
+
 
 export const UserContext = createContext();
 
@@ -20,6 +22,8 @@ const AppRouter = ({ children }) => {
                 <Route exact path='/'><Home /> </Route>
 
                 <Route exact path='/channel/all'> <LiveTvAll /> </Route>
+
+                <Route exact path='/drama/all'> <DramaPage /> </Route>
 
                 <Route exact path='/popular'> <PopularPage /> </Route>
 
