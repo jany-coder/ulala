@@ -1,26 +1,20 @@
 import React, { useEffect, useState } from 'react';
-import './_liveTv.scss';
-import liveTvData from '../../data/liveTvData';
 import LiveTvCard from '../liveTvCard/LiveTvCard';
-import SlideSection from '../shared/slideSection/slide/Slide';
-import CustomSlick from '../shared/customSlick/CustomSlick';
+import liveTvData from './../../../data/liveTvData';
 
-const LiveTv = () => {
+const LiveTvAll = () => {
 
-  const [tvChannels, setTvChannels] = useState([]);
+    const [tvChannels, setTvChannels] = useState([]);
 
-  useEffect(() => {
-    setTvChannels(liveTvData)
-  }, [])
+    useEffect(() => {
+        setTvChannels(liveTvData)
+    }, [])
 
-  return (
-    <SlideSection title="TV Channels" Link="/channel/all">
-      <CustomSlick>
-        {
-          tvChannels.map(tv => <LiveTvCard tv={tv} />)
-        }
-      </CustomSlick>
-      <div class="d-flex flex-sm-row flex-column justify-content-start flex-wrap mb-2">
+
+
+    return (
+        <div className="container-fluid p-4">
+            <div class="d-flex flex-sm-row flex-column justify-content-start flex-wrap mb-2">
                 <div class="p-1 text-center">
                     <button onClick={()=> setTvChannels(liveTvData)} type="button" class="btn btn-outline-primary w-100">ALL</button>
                 </div>
@@ -43,8 +37,17 @@ const LiveTv = () => {
                     <button onClick={()=> setTvChannels(liveTvData.filter(tv => tv.type === 'kids'))} type="button" class="btn btn-outline-primary">KIDS</button>
                 </div>
             </div>
-    </SlideSection>
-  );
+            <div class="row">
+                {
+                    tvChannels.map(tv =>
+
+                        <div key={tv.id} className="col-lg-2 col-md-" style={{ width: '150px' }}>
+                            <LiveTvCard tv={tv}></LiveTvCard>
+                        </div>)
+                }
+            </div>
+        </div>
+    );
 };
 
-export default LiveTv;
+export default LiveTvAll;
