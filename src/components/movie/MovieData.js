@@ -25,7 +25,7 @@ const MovieData = [
     },
     { 
         name: "মুসাফির",
-        img: "https://https://cdn.bioscopelive.com/upload/content/landscape/hd/9lrX5tuqc0o.jpg.ibb.co/gPMpqGS/Natok6.jpg"
+        img: "https://cdn.bioscopelive.com/upload/content/landscape/hd/9lrX5tuqc0o.jpg"
     },
     { 
         name: "শেষ থেকে শুরু",

@@ -9,7 +9,7 @@ const Natok = () => {
         setdata(MovieData)
     },[])
     const settings = {
-        dots: true,
+        dots: false,
         infinite: false,
         speed: 500,
         slidesToShow: 4,

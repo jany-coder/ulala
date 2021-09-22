@@ -1,4 +1,5 @@
 import React from 'react';
+import './_popularCard.scss';
 
 const PopularCard = (props) => {
     const { name, img } = props.popular;
