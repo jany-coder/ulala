@@ -10,7 +10,7 @@ export default function BannerCarousel () {
 
     return (
         <div>
-            <div className="h-screen">
+            <div className="mw-100">
                 <BackgroundSlider images={[image1,image2,image3, image4]} duration={4}transition={1}/>
             </div>
             <div>

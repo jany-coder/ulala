@@ -1,11 +1,11 @@
 @import "./global/global";
-// @import "./global/globalTailwind";
+@import "./global/globalTailwind";
 @import "./overrides/bootstrap";
 @import "./overrides/reset";
 
 // Connect components scss files
 @import "../components/shared/nav/nav";
-@import "../components/shared/footer/footer";
+@import "../components/shared/footer/Footer";
 @import "../components/liveTV/liveTV/LiveTV";
 @import "../components/shared/customSlick/customSlick";
 @import "../components/shared/slideSection/slideCard/SlideCard";
