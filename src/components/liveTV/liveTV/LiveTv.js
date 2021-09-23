@@ -14,7 +14,7 @@ const LiveTV = () => {
   }, [])
 
   return (
-    <SlideSection title="TV Channels" Link="/channel/all">
+    <SlideSection title="TV Channels" link="/channel/all">
       <CustomSlick>
         {
           tvChannels.map(tv => <LiveTvCard tv={tv} />)

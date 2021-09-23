@@ -52,3 +52,17 @@
   }
 }
 
+.commonBtn{
+  margin: 10px;
+  padding: 5px 10px;
+  border-radius: 20px 0px;
+  background-color: #06f591;
+  color: white;
+  // transform: translate(-50%, 100%);
+}
+.commonBtn:hover {
+  border-radius: 0px 20px;
+  // color: #66ffdb;
+  animation: color 0.2s ease-in-out alternate-reverse;
+  // transform: translateY(-3px);
+}
