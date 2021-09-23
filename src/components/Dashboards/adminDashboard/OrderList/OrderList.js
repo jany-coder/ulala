@@ -31,7 +31,7 @@ return (
                     <h6 style={h6}>ORDER LIST</h6>
                     <Col style={halfCol} >
                         <Table>
-                            <thead><tr><th>Name</th> <th>Email ID</th><th>Destination</th><th>Status</th></tr> </thead>
+                            <thead><tr><th>Name</th> <th>Email ID</th><th>Items</th><th>Status</th></tr> </thead>
                             <tbody>
                                 {orderLists.map(orderList => <OrderListCard toggle={toggle} setToggle = {setToggle} orderList={orderList} key={orderList._id}> </OrderListCard>)}
                             </tbody>
@@ -45,5 +45,6 @@ return (
         </Container>
     </div>
     );
+    
 };
 
