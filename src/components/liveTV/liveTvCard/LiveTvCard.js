@@ -2,10 +2,12 @@ import React from 'react';
 import './_liveTvCard.scss';
 
 const LiveTvCard = (props) => {
+
+    const {handlePlayVideo} = props;
     const { name, img } = props.tv;
     return (
         <>
-           <div className="text-center">
+           <div onClick={handlePlayVideo} className="text-center">
                <div  className="tv-card-img shadow d-flex justify-content-center align-items-center">
                     <img src={img} alt="" />
                </div>

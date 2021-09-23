@@ -10,6 +10,7 @@ import AdminDashboard from '../components/Dashboards/adminDashboard/AdminDashboa
 import DramaPage from './../pages/dramaPage/DramaPage';
 import MoviesPage from '../pages/moviesPage/MoviesPage';
 import UpComingPage from '../pages/upComingPage/UpComingPage';
+import PlayVideo from '../pages/playVideo/PlayVideo';
 
 
 export const UserContext = createContext();
@@ -32,6 +33,8 @@ const AppRouter = ({ children }) => {
                 <Route exact path='/movies/all'> <MoviesPage /> </Route>
 
                 <Route exact path='/upcoming'> <UpComingPage /> </Route>
+                
+                <Route exact path='/video'> <PlayVideo /> </Route>
 
                 <PrivateRoute exact path='/user_dashboard'><UserDashboard /></PrivateRoute>
 
