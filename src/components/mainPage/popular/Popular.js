@@ -14,7 +14,7 @@ const Popular = () => {
     console.log(popular);
 
     return (
-        <SlideSection title="Most Popular" Link="/popular">
+        <SlideSection title="Most Popular" link="/popular">
             <CustomSlick>
                 {
                     popular.map(item => <SlideCard item={item} />)
