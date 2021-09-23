@@ -67,10 +67,15 @@ const nav = () => {
                             <button className="btn btn-outline-light" type="submit">Search</button>
                         </form>
                         <ul className="navbar-nav ms-2">
+<<<<<<< HEAD
+                            <li className="nav-item">
+                                <Link to="/user_dashboard"><button type="button" className="commonBtn">Login</button></Link>
+=======
                             <li className="nav-item me-2">
                                 <Link to="/user_dashboard"><button type="button" className="btn btn-primary">Login</button></Link>
                             </li>
                             <li className="nav-item">
+>>>>>>> 88c9429103c2a5fbc919da958c7237d399f3f1d4
                                 <Link to="/admin_dashboard"><button type="button" className="btn btn-primary">Admin</button></Link>
                             </li>
                         </ul>
