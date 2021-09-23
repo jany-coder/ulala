@@ -12,7 +12,7 @@ import Footer from '../../components/shared/footer/Footer';
 
 const Home = () => {
     return (
-        <div className="div">
+        <div>
             <BannerCarousel />
             <LiveTV />
             <Natok/>

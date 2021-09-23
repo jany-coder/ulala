@@ -46,7 +46,7 @@ const Natok = () => {
         <div class="container-fluid">
             <div>
                 <h5 className="d-inline mx-3">Bangla TV Drama</h5>
-                <Link to="/">See More</Link>
+                <Link to="/drama/all">See More</Link>
             </div>
             <Slider {...settings}>
                 {
