@@ -9,7 +9,7 @@ const LiveTvCard = (props) => {
                <div  className="tv-card-img shadow d-flex justify-content-center align-items-center">
                     <img src={img} alt="" />
                </div>
-               <div className="text-center text-white">
+               <div className="text-cente">
                    <p><strong>{name}</strong></p>
                 </div>
            </div>
