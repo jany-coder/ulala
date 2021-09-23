@@ -8,6 +8,14 @@ const Natok = () => {
     useEffect(() => {
         setdata(NatokData)
     },[])
+//   useEffect(() => {
+//     fetch('https://shrouded-coast-89761.herokuapp.com/serviceEvent')
+//         .then(res => res.json())
+//         .then(data => setdata(data))
+// }, [])
+
+
+
     const settings = {
         dots: true,
         infinite: false,

@@ -11,6 +11,16 @@ const PopularPage = () => {
     useEffect(() => {
         setPopular(popularData)
     }, [])
+
+    
+//   useEffect(() => {
+//     fetch('https://shrouded-coast-89761.herokuapp.com/serviceEvent')
+//         .then(res => res.json())
+//         .then(data => setPopular(data))
+// }, [])
+
+
+
     return (
         <div class=" container-fluid">
             <div class="row my-4">
