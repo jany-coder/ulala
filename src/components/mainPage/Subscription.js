@@ -1,6 +1,7 @@
 import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 
 const Plans = [
@@ -41,7 +42,7 @@ const Subscription = () => {
                                    Some quick example text to build on the card title and make up the bulk of
                                     the card's content.
                                 </Card.Text>
-                                <Button className="btn btn-outline-primary btn-block hover:text-gray-50 " variant="primary">SELECT</Button>
+                               <Link to="/user_dashboard"> <Button className="btn btn-outline-primary btn-block hover:text-gray-50 " variant="primary">SELECT</Button></Link>
                             </Card.Body>
                         </Card>
                       </div>

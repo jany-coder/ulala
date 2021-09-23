@@ -23,42 +23,41 @@ const nav = () => {
                                 <Link to="/" class="nav-link dropdown-toggle"  id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span>HOME</span></Link>
                                 <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarScrollingDropdown">
                                     <li><Link to="/" class="dropdown-item">Main Home</Link></li>
-                                    <li><Link to="/" class="dropdown-item">Live TV</Link></li>
-                                    <li><Link to="/" class="dropdown-item">Movies</Link></li>
-                                    <li><Link to="/" class="dropdown-item">Drama</Link></li>
+                                    <li><Link to="/channel/all" class="dropdown-item">Live TV</Link></li>
+                                    <li><Link to="/movies/all" class="dropdown-item">Movies</Link></li>
+                                    <li><Link to="/drama/all" class="dropdown-item">Drama</Link></li>
+                                    <li><Link to="/drama/all" class="dropdown-item">Popular</Link></li>
+                                    <li><Link to="/drama/all" class="dropdown-item">Upcoming</Link></li>
                                 </ul>
                             </li>
                             <li className="nav-item dropdown">
                                 <Link to="/channel/all" class="nav-link dropdown-toggle"  id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span>LIVE TV</span></Link>
                                 <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarScrollingDropdown">
                                     <li><Link to="/channel/all" class="dropdown-item">All Channels</Link></li>
-                                    <li><Link to="/" class="dropdown-item">Channel 2</Link></li>
-                                    <li><Link to="/" class="dropdown-item">Channel 3</Link></li>
-                                    <li><Link to="/" class="dropdown-item">Channel 4</Link></li>
                                 </ul>
                             </li>
                             <li className="nav-item dropdown">
                                 <Link to="/movies" class="nav-link dropdown-toggle"  id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span>MOVIES</span></Link>
                                 <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarScrollingDropdown">
-                                    <li><Link to="/" class="dropdown-item">All Movies</Link></li>
-                                    <li><Link to="/" class="dropdown-item">Movies 2</Link></li>
-                                    <li><Link to="/" class="dropdown-item">MOvies 3</Link></li>
-                                    <li><Link to="/" class="dropdown-item">MOvies 4</Link></li>
+                                    <li><Link to="/movies/all" class="dropdown-item">All Movies</Link></li>
                                 </ul>
                             </li>
                             <li className="nav-item dropdown">
                                 <Link to="/drama" class="nav-link dropdown-toggle"  id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span>DRAMA</span></Link>
                                 <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarScrollingDropdown">
                                     <li><Link to="/drama/all" class="dropdown-item">Drama All</Link></li>
-                                    <li><Link to="/" class="dropdown-item">Drama 2</Link></li>
-                                    <li><Link to="/" class="dropdown-item">Drama 3</Link></li>
-                                    <li><Link to="/" class="dropdown-item">Drama 4</Link></li>
                                 </ul>
                             </li>
                             <li className="nav-item dropdown">
                                 <Link to="/drama" class="nav-link dropdown-toggle"  id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span>POPULAR</span></Link>
                                 <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarScrollingDropdown">
                                     <li><Link to="/popular" class="dropdown-item">Popular</Link></li>
+                                </ul>
+                            </li>
+                            <li className="nav-item dropdown">
+                                <Link to="/drama" class="nav-link dropdown-toggle"  id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span>UPCOMING</span></Link>
+                                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarScrollingDropdown">
+                                    <li><Link to="/upcoming" class="dropdown-item">Upcoming</Link></li>
                                 </ul>
                             </li>
                            
@@ -68,9 +67,15 @@ const nav = () => {
                             <button className="btn btn-outline-light" type="submit">Search</button>
                         </form>
                         <ul className="navbar-nav ms-2">
-                            <li className="nav-item">
+                            <li className="nav-item me-2">
                                 <Link to="/user_dashboard"><button type="button" className="btn btn-primary">Login</button></Link>
+<<<<<<< HEAD
                                 <Link to="/orderList"><button type="button" className="btn btn-primary">Admin</button></Link>
+=======
+                            </li>
+                            <li className="nav-item">
+                                <Link to="/admin_dashboard"><button type="button" className="btn btn-primary">Admin</button></Link>
+>>>>>>> 3ba5bd42a0c2f24a8a1baf0ed7b54f168f7cd1b4
                             </li>
                         </ul>
                     </div>

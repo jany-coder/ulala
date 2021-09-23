@@ -13,7 +13,7 @@ const LiveTvAll = () => {
 
 
     return (
-        <div className="container-fluid p-4">
+        <div className="container-fluid vh-100 p-4">
             <div class="d-flex flex-sm-row flex-column justify-content-start flex-wrap mb-2">
                 <div class="p-1 text-center">
                     <button onClick={()=> setTvChannels(liveTvData)} type="button" class="btn btn-outline-primary w-100">ALL</button>

@@ -4,6 +4,7 @@ import LiveTvCard from '../liveTvCard/LiveTvCard';
 import SlideSection from '../../shared/slideSection/slide/Slide';
 import liveTvData from '../../../data/liveTvData';
 import CustomSlick from '../../shared/customSlick/CustomSlick';
+import { useHistory } from 'react-router';
 
 const LiveTV = () => {
 
@@ -13,11 +14,17 @@ const LiveTV = () => {
     setTvChannels(liveTvData)
   }, [])
 
+  let history = useHistory();
+
+    const handlePlayVideo = () => {
+        history.push("/video");
+    }
+
   return (
-    <SlideSection title="TV Channels" Link="/channel/all">
+    <SlideSection title="TV Channels" link="/channel/all">
       <CustomSlick>
         {
-          tvChannels.map(tv => <LiveTvCard tv={tv} />)
+          tvChannels.map(tv => <LiveTvCard handlePlayVideo= {handlePlayVideo} tv={tv} />)
         }
       </CustomSlick>
       <div class="d-flex flex-sm-row flex-column justify-content-start flex-wrap mb-2">

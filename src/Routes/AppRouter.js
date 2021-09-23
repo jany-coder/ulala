@@ -11,6 +11,9 @@ import ManagePictures from '../components/Dashboards/adminDashboard/ManagePictur
 import OrderList from '../components/Dashboards/adminDashboard/OrderList/OrderList';
 import MakeAdmin from '../components/Dashboards/adminDashboard/MakeAdmin/MakeAdmin';
 import DramaPage from './../pages/dramaPage/DramaPage';
+import MoviesPage from '../pages/moviesPage/MoviesPage';
+import UpComingPage from '../pages/upComingPage/UpComingPage';
+import PlayVideo from '../pages/playVideo/PlayVideo';
 
 
 export const UserContext = createContext();
@@ -29,6 +32,12 @@ const AppRouter = ({ children }) => {
                     <Route exact path='/drama/all'> <DramaPage /> </Route>
 
                     <Route exact path='/popular'> <PopularPage /> </Route>
+
+                <Route exact path='/movies/all'> <MoviesPage /> </Route>
+
+                <Route exact path='/upcoming'> <UpComingPage /> </Route>
+                
+                <Route exact path='/video'> <PlayVideo /> </Route>
 
 
                     {/* <Route path='/destinations'><Destinations /></Route> */}

@@ -1,68 +1,68 @@
-const popularData = [
+const upcomingData = [
     {
-        name: 'Popular 1',
-        img: 'https://cdn.bioscopelive.com/upload/content/tivoPortrait/hd/tB6Yzc5xIgM.jpg'
+        name: 'Upcoming 1',
+        img: 'https://cdn.bioscopelive.com/upload/content/tivoPortrait/hd/8N0i7XE3ldo.jpg'
     },
     {
-        name: 'Popular 2',
-        img: 'https://cdn.bioscopelive.com/upload/content/tivoPortrait/hd/I7bFLTYSxvX.jpg'
+        name: 'Upcoming 2',
+        img: 'https://cdn.bioscopelive.com/upload/content/tivoPortrait/hd/oTjL3P76Bf9.jpg'
     },
     {
-        name: 'Popular 3',
-        img: 'https://cdn.bioscopelive.com/upload/content/tivoPortrait/hd/b94mgcfH9dj.jpg'
+        name: 'Upcoming 3',
+        img: 'https://cdn.bioscopelive.com/upload/content/tivoPortrait/hd/7aWTSm4uKLU.jpg'
     },
     {
-        name: 'Popular 4',
-        img: 'https://cdn.bioscopelive.com/upload/content/tivoPortrait/hd/8B15m1j6MF8.jpg'
+        name: 'Upcoming 4',
+        img: 'https://cdn.bioscopelive.com/upload/content/tivoPortrait/hd/eoDU2nTrkk1.jpg'
     },
     {
-        name: 'Popular 5',
-        img: 'https://cdn.bioscopelive.com/upload/content/tivoPortrait/hd/9u5uSTIj8wl.jpg'
+        name: 'Upcoming 5',
+        img: 'https://cdn.bioscopelive.com/upload/content/tivoPortrait/hd/vr7B9B4mA95.jpg'
     },
     {
-        name: 'Popular 6',
-        img: 'https://cdn.bioscopelive.com/upload/content/tivoPortrait/hd/Omj1h8z4K20.jpg'
+        name: 'Upcoming 6',
+        img: 'https://cdn.bioscopelive.com/upload/content/tivoPortrait/hd/jQA2HO2Rirr.jpg'
     },
     {
-        name: 'Popular 7',
+        name: 'Upcoming 7',
         img: 'https://cdn.bioscopelive.com/upload/content/tivoPortrait/hd/Kd1owAEqWSB.jpg'
     },
     {
-        name: 'Popular 8',
+        name: 'Upcoming 8',
         img: 'https://cdn.bioscopelive.com/upload/content/tivoPortrait/hd/W518A3z1Ne1.jpg'
     },
     {
-        name: 'Popular 9',
+        name: 'Upcoming 9',
         img: 'https://cdn.bioscopelive.com/upload/content/tivoPortrait/hd/2Z2ghRFmDNS.jpg'
     },
     {
-        name: 'Popular 10',
+        name: 'Upcoming 10',
         img: 'https://cdn.bioscopelive.com/upload/content/tivoPortrait/hd/bsvbG9OzO2T.jpg'
     },
     {
-        name: 'Popular 11',
+        name: 'Upcoming 11',
         img: 'https://cdn.bioscopelive.com/upload/content/tivoPortrait/hd/tB6Yzc5xIgM.jpg'
     },
     {
-        name: 'Popular 12',
+        name: 'Upcoming 12',
         img: 'https://cdn.bioscopelive.com/upload/content/tivoPortrait/hd/4763O8V75pf.jpg'
     },
     {
-        name: 'Popular 13',
+        name: 'Upcoming 13',
         img: 'https://cdn.bioscopelive.com/upload/content/tivoPortrait/hd/tB6Yzc5xIgM.jpg'
     },
     {
-        name: 'Popular 14',
+        name: 'Upcoming 14',
         img: 'https://cdn.bioscopelive.com/upload/content/tivoPortrait/hd/tB6Yzc5xIgM.jpg'
     },
     {
-        name: 'Popular 15',
+        name: 'Upcoming 15',
         img: 'https://cdn.bioscopelive.com/upload/content/tivoPortrait/hd/QW1KCCz8RWN.jpg'
     },
     {
-        name: 'Popular 16',
+        name: 'Upcoming 16',
         img: 'https://cdn.bioscopelive.com/upload/content/tivoPortrait/hd/tB6Yzc5xIgM.jpg'
     }
 ]
 
-export default popularData;
+export default upcomingData;
