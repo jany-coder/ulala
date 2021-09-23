@@ -26,6 +26,8 @@ const nav = () => {
                                     <li><Link to="/channel/all" class="dropdown-item">Live TV</Link></li>
                                     <li><Link to="/movies/all" class="dropdown-item">Movies</Link></li>
                                     <li><Link to="/drama/all" class="dropdown-item">Drama</Link></li>
+                                    <li><Link to="/drama/all" class="dropdown-item">Popular</Link></li>
+                                    <li><Link to="/drama/all" class="dropdown-item">Upcoming</Link></li>
                                 </ul>
                             </li>
                             <li className="nav-item dropdown">
@@ -52,6 +54,12 @@ const nav = () => {
                                     <li><Link to="/popular" class="dropdown-item">Popular</Link></li>
                                 </ul>
                             </li>
+                            <li className="nav-item dropdown">
+                                <Link to="/drama" class="nav-link dropdown-toggle"  id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span>UPCOMING</span></Link>
+                                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarScrollingDropdown">
+                                    <li><Link to="/upcoming" class="dropdown-item">Upcoming</Link></li>
+                                </ul>
+                            </li>
                            
                         </ul>
                         <form className="d-flex">
@@ -59,15 +67,10 @@ const nav = () => {
                             <button className="btn btn-outline-light" type="submit">Search</button>
                         </form>
                         <ul className="navbar-nav ms-2">
-<<<<<<< HEAD
-                            <li className="nav-item">
-                                <Link to="/user_dashboard"><button type="button" className="commonBtn">Login</button></Link>
-=======
                             <li className="nav-item me-2">
                                 <Link to="/user_dashboard"><button type="button" className="btn btn-primary">Login</button></Link>
                             </li>
                             <li className="nav-item">
->>>>>>> 88c9429103c2a5fbc919da958c7237d399f3f1d4
                                 <Link to="/admin_dashboard"><button type="button" className="btn btn-primary">Admin</button></Link>
                             </li>
                         </ul>

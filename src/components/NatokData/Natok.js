@@ -3,11 +3,19 @@ import NatokData from './NatokData';
 import Slider from "react-slick";
 import ShowNatok from './ShowNatok';
 import { Link } from 'react-router-dom';
+import { useHistory } from 'react-router';
+
 const Natok = () => {
     const [loaddata, setdata] = useState()
     useEffect(() => {
         setdata(NatokData)
     },[])
+
+    let history = useHistory();
+
+    const handlePlayVideo = () => {
+        history.push("/video");
+    }
     const settings = {
         dots: false,
         infinite: false,
@@ -51,7 +59,7 @@ const Natok = () => {
             <Slider {...settings}>
                 {
                    loaddata?.map(data=>    <div className="d-flex justify-content-center" style={{width: '150px'}}>
-                   <ShowNatok natok={data}></ShowNatok>
+                   <ShowNatok handlePlayVideo={handlePlayVideo} natok={data}></ShowNatok>
                </div>)
                 }
             </Slider>
