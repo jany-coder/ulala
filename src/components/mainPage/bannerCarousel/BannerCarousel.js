@@ -6,6 +6,7 @@ import image4 from '../../../assets/image1.jpg';
 import BackgroundSlider from 'react-background-slider';
 
 
+
 export default function BannerCarousel () {
 
     return (

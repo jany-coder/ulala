@@ -12,7 +12,7 @@ import LiveTV from './../../components/liveTV/liveTV/LiveTv';
 
 const Home = () => {
     return (
-        <div className="div">
+        <div>
             <BannerCarousel />
             <LiveTV />
             <Natok/>
