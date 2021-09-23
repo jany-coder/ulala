@@ -71,7 +71,7 @@ const nav = () => {
                                 <Link to="/user_dashboard"><button type="button" className="btn btn-primary">Login</button></Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/admin_dashboard"><button type="button" className="btn btn-primary">Admin</button></Link>
+                                <Link to="/orderList"><button type="button" className="btn btn-primary">Admin</button></Link>
                             </li>
                         </ul>
                     </div>

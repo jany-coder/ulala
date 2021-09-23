@@ -18,6 +18,7 @@ export default function UserDashboard() {
                         </div>
                         <div className="pl-8 py-6 ">
                             <p>My profile</p>
+                            <p>Review your Watch</p>
                             <p>Recommended</p>
                             <p>Watched Video</p>
                         </div>
