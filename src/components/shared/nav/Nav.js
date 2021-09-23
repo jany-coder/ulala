@@ -69,9 +69,13 @@ const nav = () => {
                         <ul className="navbar-nav ms-2">
                             <li className="nav-item me-2">
                                 <Link to="/user_dashboard"><button type="button" className="btn btn-primary">Login</button></Link>
+<<<<<<< HEAD
+                                <Link to="/orderList"><button type="button" className="btn btn-primary">Admin</button></Link>
+=======
                             </li>
                             <li className="nav-item">
                                 <Link to="/admin_dashboard"><button type="button" className="btn btn-primary">Admin</button></Link>
+>>>>>>> 3ba5bd42a0c2f24a8a1baf0ed7b54f168f7cd1b4
                             </li>
                         </ul>
                     </div>

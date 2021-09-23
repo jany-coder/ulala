@@ -46,12 +46,9 @@ const Subscription = () => {
                             </Card.Body>
                         </Card>
                       </div>
-
                     </div>
                 ))
-
             }
-
         </div>
         </div>
     );
