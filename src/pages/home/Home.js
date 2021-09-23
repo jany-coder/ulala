@@ -7,6 +7,7 @@ import Natok from './../../components/NatokData/Natok';
 import Subscription from '../../components/mainPage/Subscription';
 import Movie from '../../components/movie/Movie';
 import LiveTV from './../../components/liveTV/liveTV/LiveTv';
+import UpComing from '../../components/mainPage/upComming/UpComing';
 
 
 
@@ -18,6 +19,7 @@ const Home = () => {
             <Natok/>
             <Movie/>
             <Popular />
+            <UpComing />
             <Faq />
             <Subscription/>
             <Footer />

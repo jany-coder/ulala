@@ -26,6 +26,8 @@ const nav = () => {
                                     <li><Link to="/channel/all" class="dropdown-item">Live TV</Link></li>
                                     <li><Link to="/movies/all" class="dropdown-item">Movies</Link></li>
                                     <li><Link to="/drama/all" class="dropdown-item">Drama</Link></li>
+                                    <li><Link to="/drama/all" class="dropdown-item">Popular</Link></li>
+                                    <li><Link to="/drama/all" class="dropdown-item">Upcoming</Link></li>
                                 </ul>
                             </li>
                             <li className="nav-item dropdown">
@@ -50,6 +52,12 @@ const nav = () => {
                                 <Link to="/drama" class="nav-link dropdown-toggle"  id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span>POPULAR</span></Link>
                                 <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarScrollingDropdown">
                                     <li><Link to="/popular" class="dropdown-item">Popular</Link></li>
+                                </ul>
+                            </li>
+                            <li className="nav-item dropdown">
+                                <Link to="/drama" class="nav-link dropdown-toggle"  id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span>UPCOMING</span></Link>
+                                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarScrollingDropdown">
+                                    <li><Link to="/upcoming" class="dropdown-item">Upcoming</Link></li>
                                 </ul>
                             </li>
                            
