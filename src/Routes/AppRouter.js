@@ -1,19 +1,19 @@
 import React, { createContext, useState } from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import LiveTvAll from '../components/liveTV/liveTvAll/LiveTvAll';
-import UserDashboard from '../components/Dashboards/userDashboard/UserDashboard';
-import Home from '../pages/home/Home';
-import PopularPage from '../pages/popularPage/PopularPage';
-import Login from '../components/login/Login';
-import PrivateRoute from '../components/PrivateRoute/PrivateRoute';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import AddPictures from '../components/Dashboards/adminDashboard/AddPictures/AddPictures';
+import MakeAdmin from '../components/Dashboards/adminDashboard/MakeAdmin/MakeAdmin';
 import ManagePictures from '../components/Dashboards/adminDashboard/ManagePictures/ManagePictures';
 import OrderList from '../components/Dashboards/adminDashboard/OrderList/OrderList';
-import MakeAdmin from '../components/Dashboards/adminDashboard/MakeAdmin/MakeAdmin';
-import DramaPage from './../pages/dramaPage/DramaPage';
+import UserDashboard from '../components/Dashboards/userDashboard/UserDashboard';
+import LiveTvAll from '../components/liveTV/liveTvAll/LiveTvAll';
+import Login from '../components/login/Login';
+import PrivateRoute from '../components/PrivateRoute/PrivateRoute';
+import Home from '../pages/home/Home';
 import MoviesPage from '../pages/moviesPage/MoviesPage';
-import UpComingPage from '../pages/upComingPage/UpComingPage';
 import PlayVideo from '../pages/playVideo/PlayVideo';
+import PopularPage from '../pages/popularPage/PopularPage';
+import UpComingPage from '../pages/upComingPage/UpComingPage';
+import DramaPage from './../pages/dramaPage/DramaPage';
 
 
 export const UserContext = createContext();
@@ -37,7 +37,7 @@ const AppRouter = ({ children }) => {
 
                 <Route exact path='/upcoming'> <UpComingPage /> </Route>
                 
-                <Route exact path='/video'> <PlayVideo /> </Route>
+                <Route exact path='/liveTV/video/:id'> <PlayVideo /> </Route>
 
 
                     {/* <Route path='/destinations'><Destinations /></Route> */}
