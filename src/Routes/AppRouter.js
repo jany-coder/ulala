@@ -10,10 +10,12 @@ import Login from '../components/login/Login';
 import PrivateRoute from '../components/PrivateRoute/PrivateRoute';
 import Home from '../pages/home/Home';
 import MoviesPage from '../pages/moviesPage/MoviesPage';
+import PlayDramaVideo from '../pages/playVideo/PlayDrama';
 import PlayVideo from '../pages/playVideo/PlayVideo';
 import PopularPage from '../pages/popularPage/PopularPage';
 import UpComingPage from '../pages/upComingPage/UpComingPage';
 import DramaPage from './../pages/dramaPage/DramaPage';
+
 
 
 export const UserContext = createContext();
@@ -33,11 +35,13 @@ const AppRouter = ({ children }) => {
 
                     <Route exact path='/popular'> <PopularPage /> </Route>
 
-                <Route exact path='/movies/all'> <MoviesPage /> </Route>
+                    <Route exact path='/movies/all'> <MoviesPage /> </Route>
 
-                <Route exact path='/upcoming'> <UpComingPage /> </Route>
-                
-                <Route exact path='/liveTV/video/:id'> <PlayVideo /> </Route>
+                    <Route exact path='/upcoming'> <UpComingPage /> </Route>
+
+                    <Route exact path='/liveTV/video/:id'> <PlayVideo /> </Route>
+                    <Route exact path='/channel/liveTV/video/:id'> <PlayVideo /> </Route>
+                    <Route exact path='/drama/video/:id'> <PlayDramaVideo /> </Route>
 
 
                     {/* <Route path='/destinations'><Destinations /></Route> */}
