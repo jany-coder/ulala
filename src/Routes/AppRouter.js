@@ -8,13 +8,15 @@ import UserDashboard from '../components/Dashboards/userDashboard/UserDashboard'
 import LiveTvAll from '../components/liveTV/liveTvAll/LiveTvAll';
 import Login from '../components/login/Login';
 import PrivateRoute from '../components/PrivateRoute/PrivateRoute';
+import DramaPage from '../pages/dramaPage/DramaPage';
 import Home from '../pages/home/Home';
 import MoviesPage from '../pages/moviesPage/MoviesPage';
 import PlayDramaVideo from '../pages/playVideo/PlayDrama';
-import PlayVideo from '../pages/playVideo/PlayVideo';
+import PlayTV from '../pages/playVideo/PlayTV';
 import PopularPage from '../pages/popularPage/PopularPage';
 import UpComingPage from '../pages/upComingPage/UpComingPage';
-import DramaPage from './../pages/dramaPage/DramaPage';
+import PlayMovie from './../pages/playVideo/PlayMovie';
+
 
 
 
@@ -39,9 +41,10 @@ const AppRouter = ({ children }) => {
 
                     <Route exact path='/upcoming'> <UpComingPage /> </Route>
 
-                    <Route exact path='/liveTV/video/:id'> <PlayVideo /> </Route>
-                    <Route exact path='/channel/liveTV/video/:id'> <PlayVideo /> </Route>
+                    <Route exact path='/liveTV/video/:id'> <PlayTV /> </Route>
+                    <Route exact path='/channel/liveTV/video/:id'> <PlayTV /> </Route>
                     <Route exact path='/drama/video/:id'> <PlayDramaVideo /> </Route>
+                    <Route exact path='/movie/video/:id'> <PlayMovie /> </Route>
 
 
                     {/* <Route path='/destinations'><Destinations /></Route> */}

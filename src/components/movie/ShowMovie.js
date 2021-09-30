@@ -1,13 +1,22 @@
 import React from 'react';
-import "./_movie.scss";
+import { useHistory } from 'react-router';
 import '../../components/shared/commonCSS/_commonCSS.scss';
-const ShowNatok = (props) => {
-     const {handlePlayVideo} = props;
-     const { name, img} = props.natok;
+import "./_movie.scss";
+
+const ShowMovie = (props) => {
+    
+     const { name, img, id} = props.movie;
+
+
+     let history = useHistory();
+ 
+     const handlePlayVideo = (id) => {
+         history.push(`movie/video/${id}`);
+     }
 
 
      return (
-          <div onClick={handlePlayVideo} className="text-center rounded">
+          <div onClick={() => handlePlayVideo(id)} className="text-center rounded">
                <div className="img-hover-zoom tv-card-img shadow d-flex justify-content-center align-items-center rounded">
                     <img className="rounded" src={img} alt="" style={{ height: '200px' }} />
                </div>
@@ -18,4 +27,4 @@ const ShowNatok = (props) => {
      );
 };
 
-export default ShowNatok;
+export default ShowMovie;

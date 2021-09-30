@@ -4,7 +4,7 @@ import liveTvData from '../../data/liveTvData';
 import "./_playVideo.scss";
 
 
-const PlayVideo = () => {
+const PlayTV = () => {
 
     let { id } = useParams();
 
@@ -37,4 +37,4 @@ const PlayVideo = () => {
     );
 };
 
-export default PlayVideo;
+export default PlayTV;

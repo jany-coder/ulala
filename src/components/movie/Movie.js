@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import MovieData from './MovieData';
-import Slider from "react-slick";
-import ShowMovie from './ShowMovie';
 import { Link } from 'react-router-dom';
-import { useHistory } from 'react-router';
+import Slider from "react-slick";
+import MovieData from '../../data/moviesData';
+import ShowMovie from './ShowMovie';
 
-const Natok = () => {
+const Movie = () => {
 
    
     const [loaddata, setdata] = useState()
@@ -13,11 +12,6 @@ const Natok = () => {
         setdata(MovieData)
     },[])
 
-    let history = useHistory();
-
-    const handlePlayVideo = () => {
-        history.push("/video");
-    }
     const settings = {
         dots: false,
         infinite: false,
@@ -61,7 +55,7 @@ const Natok = () => {
             <Slider {...settings}>
                 {
                     loaddata?.map(data=> <div className="d-flex justify-content-center" style={{width: '150px'}}>
-                   <ShowMovie handlePlayVideo={handlePlayVideo} natok={data}></ShowMovie>
+                   <ShowMovie movie={data}></ShowMovie>
                </div>)
                 }
             </Slider>
@@ -69,4 +63,4 @@ const Natok = () => {
     );
 };
 
-export default Natok;
+export default Movie;
