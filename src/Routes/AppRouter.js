@@ -14,6 +14,7 @@ import MoviesPage from '../pages/moviesPage/MoviesPage';
 import PlayDramaVideo from '../pages/playVideo/PlayDrama';
 import PlayTV from '../pages/playVideo/PlayTV';
 import PopularPage from '../pages/popularPage/PopularPage';
+import TopNews from '../pages/TopNews/TopNews';
 import UpComingPage from '../pages/upComingPage/UpComingPage';
 import PlayMovie from './../pages/playVideo/PlayMovie';
 
@@ -45,6 +46,10 @@ const AppRouter = ({ children }) => {
                     <Route exact path='/channel/liveTV/video/:id'> <PlayTV /> </Route>
                     <Route exact path='/drama/video/:id'> <PlayDramaVideo /> </Route>
                     <Route exact path='/movie/video/:id'> <PlayMovie /> </Route>
+
+
+
+                    <Route exact path='/topNews'> <TopNews/> </Route>
 
 
                     {/* <Route path='/destinations'><Destinations /></Route> */}

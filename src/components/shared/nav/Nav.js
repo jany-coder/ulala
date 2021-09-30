@@ -1,5 +1,4 @@
 import React from 'react';
-import './_nav.scss';
 import { Link } from 'react-router-dom';
 import logo from '../../../assets/ulala.png';
 import './_nav.scss';
@@ -58,6 +57,12 @@ const nav = () => {
                                 <Link to="/drama" class="nav-link dropdown-toggle"  id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span>UPCOMING</span></Link>
                                 <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarScrollingDropdown">
                                     <li><Link to="/upcoming" class="dropdown-item">Upcoming</Link></li>
+                                </ul>
+                            </li>
+                            <li className="nav-item dropdown">
+                                <Link to="/drama" class="nav-link dropdown-toggle"  id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span>TOP NEWS</span></Link>
+                                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarScrollingDropdown">
+                                    <li><Link to="/topNews" class="dropdown-item">Top News</Link></li>
                                 </ul>
                             </li>
                            
