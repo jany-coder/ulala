@@ -9,11 +9,21 @@ const LiveTV = () => {
 
   const [tvChannels, setTvChannels] = useState([]);
 
+
   useEffect(() => {
     setTvChannels(liveTvData)
   }, [])
 
+<<<<<<< HEAD:src/components/liveTV/liveTV/LiveTv.js
  
+=======
+//   useEffect(() => {
+//     fetch('https://shrouded-coast-89761.herokuapp.com/serviceEvent')
+//         .then(res => res.json())
+//         .then(data => setTvChannels(data))
+// }, [])
+
+>>>>>>> e948c68 (ulala):src/components/liveTv/LiveTv.js
 
   return (
     <SlideSection title="TV Channels" link="/channel/all">

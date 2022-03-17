@@ -10,8 +10,19 @@ const Natok = () => {
     useEffect(() => {
         setdata(dramaData)
     },[])
+<<<<<<< HEAD
 
    
+=======
+//   useEffect(() => {
+//     fetch('https://shrouded-coast-89761.herokuapp.com/serviceEvent')
+//         .then(res => res.json())
+//         .then(data => setdata(data))
+// }, [])
+
+
+
+>>>>>>> e948c68 (ulala)
     const settings = {
         dots: false,
         infinite: false,

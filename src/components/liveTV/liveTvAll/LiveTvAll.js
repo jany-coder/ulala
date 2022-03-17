@@ -10,6 +10,13 @@ const LiveTvAll = () => {
         setTvChannels(liveTvData)
     }, [])
 
+//   useEffect(() => {
+//     fetch('https://shrouded-coast-89761.herokuapp.com/serviceEvent')
+//         .then(res => res.json())
+//         .then(data => setTvChannels(data))
+// }, [])
+
+
 
 
     return (

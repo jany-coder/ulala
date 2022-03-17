@@ -2,6 +2,10 @@ import React from 'react';
 import BannerCarousel from '../../components/mainPage/bannerCarousel/BannerCarousel';
 import Popular from '../../components/mainPage/popular/Popular';
 import Faq from '../../components/mainPage/faq/Faq';
+<<<<<<< HEAD
+=======
+import Footer from './../../components/shared/footer/Footer';
+>>>>>>> e948c68 (ulala)
 import Natok from './../../components/NatokData/Natok';
 import Subscription from '../../components/mainPage/Subscription';
 import Movie from '../../components/movie/Movie';
@@ -21,7 +25,10 @@ const Home = () => {
             <Popular />
             <UpComing />
             <Faq />
+<<<<<<< HEAD
             <Subscription/>
+=======
+>>>>>>> e948c68 (ulala)
             <Footer/>
         </div>
     );
